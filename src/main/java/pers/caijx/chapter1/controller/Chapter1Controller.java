@@ -1,4 +1,4 @@
-package pers.caijx.chapter1;
+package pers.caijx.chapter1.controller;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;

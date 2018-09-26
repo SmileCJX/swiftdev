@@ -38,6 +38,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!--为了让 Spring Boot 更好的生成配置元数据文件，我们需要添加如下依赖,该依赖只会在编译时调用，所以不用担心会对生产造成影响-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
